@@ -1,5 +1,7 @@
-Om sidan
+Om kursen design
 ==============================================
+<center>![Teknisk Webbdesign](img/responsiv-webbdesign.jpg "Responsiv webbdesign")</center>
+
 Kursen Teknisk webbdesign och användbarhet går för första gången någonsin hösten
 2016 och syftet med kursen är att lära ut hur en webbsida tekniskt förbereds
 för design och användbarhet.
@@ -14,4 +16,4 @@ Efter genomförd kurs skall studenten:
 
 Mer information om kursen hittas på [dbwebbs hemsida ](http://dbwebb.se/design).
 
-Denna hemsida är producerad av Viktoria Haapaoja, student på Blekinge tekniska högskola.
+Denna hemsida är producerad av [Viktoria Haapaoja](https://github.com/vihd14/Anax-Flat), student på Blekinge tekniska högskola.
