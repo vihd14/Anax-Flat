@@ -14,6 +14,6 @@ Efter genomförd kurs skall studenten:
 * ha god praktisk förmåga att hantera de tekniker, verktyg och miljöer som används för att designa och göra en webbplats användbar.
 
 
-Mer information om kursen hittas på [dbwebbs hemsida ](http://dbwebb.se/design).
+Mer information om kursen hittas på [dbwebbs hemsida](http://dbwebb.se/design).
 
-Denna hemsida är producerad av [Viktoria Haapaoja](https://github.com/vihd14/Anax-Flat), student på Blekinge tekniska högskola.
+Repot för sidans skapare hittas [här](https://github.com/vihd14/Anax-Flat) och sidans tema finns [här](https://github.com/vihd14/anax-flat-theme).

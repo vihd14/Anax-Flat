@@ -1,6 +1,4 @@
----
-titleBreadcrumb: Hem
-...
+
 Viktorias hemsida med Anax Flat
 ===============================
 

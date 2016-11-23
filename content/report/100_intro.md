@@ -1,4 +1,4 @@
-Introduction
+Introduktion
 ===============================
 
-Here are my reports for the different kmoms.
+Här samlas mina redovisningar från respektive kursmoment som lätt navigeras genom sidebaren här till vänster.
