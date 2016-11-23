@@ -15,9 +15,59 @@ return [
         "items" => [
 
             "index" => [
+                "text" => t("HEM"),
+                "url" => $this->di->get("url")->create("index"),
+                "title" => t("Hem"),
+                "mark-if-parent" => true,
+            ],
+
+            "grid" => [
+                "text" => t("GRID"),
+                "url" => $this->di->get("url")->create("grid"),
+                "title" => t("Grid"),
+                "mark-if-parent" => true,
+            ],
+
+            "report" => [
+                "text"  => t("REDOVISNINGAR"),
+                "url"   => $this->di->get("url")->create("report"),
+                "title" => t("Redovisningar"),
+                "mark-if-parent" => true,
+            ],
+
+            "about" => [
+                "text"  => t("OM SIDAN"),
+                "url"   => $this->di->get("url")->create("about"),
+                "title" => t("Om sidan")
+            ],
+        ],
+    ],
+
+
+
+
+    // Used as menu together with responsive menu
+    // Name of this menu
+    "navbarMax" => [
+        // Use for styling the menu
+        "id" => "rm-menu",
+        "wrapper" => null,
+        "class" => "rm-default rm-mobile",
+
+        // Here comes the menu structure
+        "items" => [
+
+            "index" => [
                 "text" => t("Hem"),
                 "url" => $this->di->get("url")->create("index"),
                 "title" => t("Hem"),
+                "mark-if-parent" => true,
+            ],
+
+            "grid" => [
+                "text" => t("Grid"),
+                "url" => $this->di->get("url")->create("grid"),
+                "title" => t("Grid"),
                 "mark-if-parent" => true,
             ],
 
@@ -36,35 +86,6 @@ return [
         ],
     ],
 
-
-
-/*
-    // Used as menu together with responsive menu
-    // Name of this menu
-    "navbarMax" => [
-        // Use for styling the menu
-        "id" => "rm-menu",
-        "wrapper" => null,
-        "class" => "rm-default rm-mobile",
-
-        // Here comes the menu structure
-        "items" => [
-
-            "report" => [
-                "text"  => t("Report"),
-                "url"   => $this->di->get("url")->create("report"),
-                "title" => t("Reports from kmom assignments"),
-                "mark-if-parent" => true,
-            ],
-
-            "about" => [
-                "text"  => t("About"),
-                "url"   => $this->di->get("url")->create("about"),
-                "title" => t("About this website")
-            ],
-        ],
-    ],
-*/
 
 
     /**
