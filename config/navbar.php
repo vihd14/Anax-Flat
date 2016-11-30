@@ -35,6 +35,13 @@ return [
                 "mark-if-parent" => true,
             ],
 
+            "analysis" => [
+                "text" => t("ANALYS"),
+                "url" => $this->di->get("url")->create("analysis"),
+                "title" => t("Analys"),
+                "mark-if-parent" => true,
+            ],
+
             "report" => [
                 "text"  => t("REDOVISNINGAR"),
                 "url"   => $this->di->get("url")->create("report"),
@@ -82,6 +89,13 @@ return [
                 "text" => t("Typography"),
                 "url" => $this->di->get("url")->create("typography"),
                 "title" => t("Typography"),
+                "mark-if-parent" => true,
+            ],
+
+            "analysis" => [
+                "text" => t("Analys"),
+                "url" => $this->di->get("url")->create("analysis"),
+                "title" => t("Analys"),
                 "mark-if-parent" => true,
             ],
 
