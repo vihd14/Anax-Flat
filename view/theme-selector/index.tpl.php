@@ -1,60 +1,34 @@
 <?php
 /**
- * Theme chooser in the design course.
+ * Theme selector in the design course.
  */
-
-// These are the valid themes
-$separator = "------------------------------------------------";
-$themes = [
-    "separator0" => $separator,
-    "base"      => "Minimal style, only the plain base",
-    "default"   => "Your own selected default theme",
-    "light"     => "Very light theme, white, black and nuances of grey",
-    "color"     => "Enhance the light theme by adding a tiny bit of color",
-    "dark"      => "Dark background and light text",
-    "colorful"  => "Make a very colorful theme",
-    "typography" => "A theme where the typography really stands out",
-    "separator1" => $separator,
-    "fun"       => "All fun, test and play, make it stand out!",
-];
-
-
-
-// Check if form was posted with a valid theme
-$output = null;
-if (isset($_POST["theme"]) && array_key_exists($_POST["theme"], $themes)) {
-    $this->di->session->set("theme-message", "Setting theme to " . $_POST["theme"] . ".");
-    $this->di->session->set("theme", $_POST["theme"]);
-    $this->di->response->redirect($this->di->request->getCurrentUrl());
-}
-
-
-// Get current theme
-$currentTheme = $this->di->session->get("theme");
-
-// Message to display when theme is changed
-$message = $this->di->session->readOnce("theme-message");
-
-
-?><article>
+?>
+<article class="article">
 <h1>Theme selector</h1>
 
 <form method="post">
     <fieldset>
         <legend>Select a theme</legend>
         <select name="theme" onchange="form.submit();">
-            <option value="-1" disabled="disabled">Select a theme...</option>
-            <?php foreach ($themes as $theme => $description) :
-                $selected = $theme == $currentTheme ? "selected" : null;
-                $separate = $description == $separator ? "disabled=\"disabled\"" : null;
-                $value = $separate ? $separator : "$theme - $description";
+            <option value="-1">Inget tema valt</option>
+            <option value="-2">Återgå till bastemat</option>
+            <?php foreach ($themes as $key => $value) :
+                $selected = $key == $currentTheme["key"]
+                    ? "selected"
+                    : null;
+                $separate = $value === $separator
+                    ? "disabled=\"disabled\""
+                    : null;
+                $value = $separate
+                    ? $separator
+                    : "$key - " . $value["title"];
             ?>
-                <option value="<?= $theme ?>" <?= $selected ?> <?= $separate ?>>
+                <option value="<?= $key ?>" <?= $selected ?> <?= $separate ?>>
                     <?= $value ?>
                 </option>
             <?php endforeach; ?>
         </select>
-        
+
         <output>
             <?php if ($message) : ?>
                 <p><?= $message ?></p>
@@ -63,15 +37,22 @@ $message = $this->di->session->readOnce("theme-message");
     </fieldset>
 </form>
 
-<p>Here you can select a theme. By selecting a theme, the theme "key" is saved in the session and applied to the template when rendering the resulting page. Basically, the theme you  select will add its name as a class to the html-element.</p>
 
-<p>This means that you can style your theme using a CSS class that you know will be attached to the HTML element.</p>
+<p>Här ovan kan du enkelt välja ett tema till hemsidan. Det valda temats inställningar sparas i sessionen och läggs till i huvudmallen när sidorna renderas. Om ett
+aktivt tema ej valts kommer temat <i>default</i> att visas för sidan.</p>
 
-<p>Like this, for a hallowen theme:</p>
+<p>Valt tema kommer göra följande:</p>
 
-<pre>
-html.hallowen {
-    background-image: url("pumpkin.png");
-}
-</pre>
+<ul>
+    <li>Ta bort alla stilmallar som tidigare definierats i <b>config/theme.php</b>.</li>
+    <li>Lägga till klasser till <b>&lt;html&gt;</b> element, om dessa definierats.</li>
+    <li>Lägga till de nya stilmallarna, om dessa definierats.</li>
+</ul>
+
+<!-- <p>You edit the settings for each theme in the configuration file <code>config/theme-selecotr.php</code>.</p>
+
+<p>The view for the theme selector is in <code>view/theme-selector/index.tpl.php</code>. There is no need to edit this file.</p>
+
+<p>The code that applies the details from session, to the template during rendering, is <code>config/routes/custom.php</code>. There is no need to change that file.</p> -->
+
 </article>
