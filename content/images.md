@@ -141,5 +141,5 @@ the trees, and, sure enough, there was Tom Sawyer waiting for me.
 
 <center>**... och ett par skärmdumpar från hemsidan.**</center>
 
-[FIGURE src="image/print_screen1.png?w=450" class="in-a-row"]
-[FIGURE src="image/print_screen2.png?w=450" class="in-a-row"]
+[FIGURE src="image/print_screen1.png?w=445" class="in-a-row"]
+[FIGURE src="image/print_screen2.png?w=445" class="in-a-row"]

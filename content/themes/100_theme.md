@@ -1,4 +1,4 @@
-Teman
+Standardteman
 =======
 
 *Temat för hemsidan ändras i temaväljaren som hittas [här](theme-selector).*

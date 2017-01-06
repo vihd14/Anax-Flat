@@ -78,5 +78,31 @@ return [
                 "css/fun.min.css"
             ]
         ],
+
+        "separator3" => "------------------------------------------------",
+
+        "Depth"     => [
+            "title"     => "Skuggning och textur för att skapa djup",
+            "class"     => "depth",
+            "stylesheets" => [
+                "css/depth.min.css"
+            ]
+        ],
+
+        "Framing"     => [
+            "title"     => "Ramar och olika former",
+            "class"     => "framing",
+            "stylesheets" => [
+                "css/framing.min.css"
+            ]
+        ],
+
+        "Contrast"     => [
+            "title"     => "Kontraster i färg och typografi",
+            "class"     => "contrast",
+            "stylesheets" => [
+                "css/contrast.min.css"
+            ]
+        ],
     ]
 ];

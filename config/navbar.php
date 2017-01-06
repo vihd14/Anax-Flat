@@ -56,9 +56,9 @@ return [
                 "mark-if-parent" => true,
             ],
 
-            "theme" => [
+            "themes" => [
                 "text" => t("TEMAN"),
-                "url" => $this->di->get("url")->create("theme"),
+                "url" => $this->di->get("url")->create("themes"),
                 "title" => t("Teman"),
                 "mark-if-parent" => true,
             ],
@@ -120,9 +120,9 @@ return [
                 "mark-if-parent" => true,
             ],
 
-            "theme" => [
+            "themes" => [
                 "text" => t("Teman"),
-                "url" => $this->di->get("url")->create("theme"),
+                "url" => $this->di->get("url")->create("themes"),
                 "title" => t("Teman"),
                 "mark-if-parent" => true,
             ],

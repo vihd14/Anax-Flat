@@ -8,7 +8,7 @@ category:
 Gyllene hårrem
 ===============
 
-[FIGURE src="image/IMG_0696.png?w=400" class="center border"]
+[FIGURE src="image/IMG_0696.png?w=400" class="center"]
 
 Under en sommar fotograferade jag ofta en bekant när hon red sin ponny som hade en vacker
 guldbrun färg. Det var en utmaning att få till det perfekta ljuset i bilderna då

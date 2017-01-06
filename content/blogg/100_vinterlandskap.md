@@ -8,7 +8,7 @@ category:
 Vinterlandskap
 ==============
 
-[FIGURE src="image/P1015138.jpg?w=600" class="center shadow"]
+[FIGURE src="image/P1015138.jpg?w=600" class="center"]
 
 Jag åker alltid till mina hemtrakter i december för att fira jul med familjen och för
 att träffa de vänner som bor kvar här. Då jag ursprungligen bor ca 55 mil norr om Karlskrona finns det
