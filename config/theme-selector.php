@@ -104,5 +104,31 @@ return [
                 "css/contrast.min.css"
             ]
         ],
+
+        "separator4" => "------------------------------------------------",
+
+        "Background"     => [
+            "title"     => "Bakgrund och transparans",
+            "class"     => "background",
+            "stylesheets" => [
+                "css/background.min.css"
+            ]
+        ],
+
+        "Texture"     => [
+            "title"     => "Texturer, bildelement och full bredd",
+            "class"     => "texture",
+            "stylesheets" => [
+                "css/texture.min.css"
+            ]
+        ],
+
+        "Gradients"     => [
+            "title"     => "Vignette i bakgrunden",
+            "class"     => "gradient",
+            "stylesheets" => [
+                "css/gradient.min.css"
+            ]
+        ],
     ]
 ];

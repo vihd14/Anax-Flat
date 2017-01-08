@@ -18,7 +18,7 @@ return [
             "lang"          => "sv",
             "charset"       => "utf-8",
             "title_append"  => " | Anax Flat",
-            "favicon"       => "img/favicon/favicon_256x256.png",
+            "favicon"       => "img/custom.png",
 
             // Style and stylesheets
             "stylesheets" => [
@@ -38,16 +38,26 @@ return [
      * Add default views to always include.
      */
     "views" => [
-        // [
-        //     "region" => "header",
-        //     "template" => "default/image",
-        //     "data" => [
-        //         "class" => "logo-1",
-        //         "src" => "img/favicon/favicon_128x128.png",
-        //         "alt" => "Logo",
-        //     ],
-        //     "sort" => 1
-        // ],
+        [
+            "region" => "header",
+            "template" => "default/image",
+            "data" => [
+                "class" => "logo-left",
+                "src" => "img/left_stamp.png",
+                "alt" => "Left-stamp",
+            ],
+            "sort" => 2
+        ],
+        [
+            "region" => "header",
+            "template" => "default/image",
+            "data" => [
+                "class" => "logo-right",
+                "src" => "img/right_stamp.png",
+                "alt" => "Right-stamp",
+            ],
+            "sort" => 2
+        ],
         [
             "region" => "header",
             "template" => "default/header",
