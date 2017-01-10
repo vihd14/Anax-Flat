@@ -1,4 +1,6 @@
-####Troubleshoot
+####Kontakt
 
-* [Gitter Chat](https://gitter.im/mosbth/design)
-* [GitHub Issues](https://github.com/canax/anax-flat/issues)
+Tel: 021-12 43 58  
+E-post: info@vasterasadvokater.se  
+
+Telefontider: Vardagar 9.30 - 16.30

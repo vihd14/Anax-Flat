@@ -30,10 +30,7 @@ views:
                 view: blog-list
 
 ...
-Min fotoblogg
+Nyheter
 ===========================
-Välkomna till min fotoblogg! Här kan ni läsa om mina bilder som alla är tagna med
-en Canon EOS 1200D och standardobjektivet. Kameran hade vid de olika tillfällena
-en blanding mellan automatiska och manuella inställningar. På de manuellt tagna bilderna
-ändrade jag endast ljusstyrkan beroende på väder (soligt/molnigt). Jag hoppas ni
-gillar bilderna och önskar er en trevlig läsning!
+Om något speciellt händer för företaget skrivs det om det här. Det samlas allt ifrån
+konferensresor till nya anställningar. 

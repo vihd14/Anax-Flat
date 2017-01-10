@@ -1,6 +1,6 @@
 ---
 titleBreadcrumb: Teman
 ...
-Introduktion
-===============================
-En samling teman med olika principer. Du kan ändra tema i [temaväljaren](theme-selector).
+Teman
+=====
+För att ändra webbplatsens tema, gå in på [temaväljaren](theme-selector).

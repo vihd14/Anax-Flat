@@ -17,8 +17,8 @@ return [
             "bodyClass"     => [],
             "lang"          => "sv",
             "charset"       => "utf-8",
-            "title_append"  => " | Anax Flat",
-            "favicon"       => "img/custom.png",
+            "title_append"  => " | VA",
+            "favicon"       => "img/favicon/logo.png",
 
             // Style and stylesheets
             "stylesheets" => [
@@ -42,19 +42,9 @@ return [
             "region" => "header",
             "template" => "default/image",
             "data" => [
-                "class" => "logo-left",
-                "src" => "img/left_stamp.png",
-                "alt" => "Left-stamp",
-            ],
-            "sort" => 2
-        ],
-        [
-            "region" => "header",
-            "template" => "default/image",
-            "data" => [
-                "class" => "logo-right",
-                "src" => "img/right_stamp.png",
-                "alt" => "Right-stamp",
+                "class" => "logo-header",
+                "src" => "img/favicon/logo.png",
+                "alt" => "Logo",
             ],
             "sort" => 2
         ],
@@ -86,16 +76,6 @@ return [
             "template" => "default/navbar",
             "data" => [],
             "sort" => 1
-        ],
-
-        [
-            "region" => "footer",
-            "template" => "default/block",
-            "sort" => 1,
-            "data" => [
-                "class" => "author-byline",
-                "contentRoute" => "block/byline",
-            ],
         ],
 
         [

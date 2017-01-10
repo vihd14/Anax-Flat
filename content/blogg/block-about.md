@@ -1,5 +1,5 @@
-###Min fotoblogg
+##Nyheter
 
-*Här kan ni se några av de bilder jag fotograferat samt läsa om hur de fotograferats.*
+*Nyheter angående företaget.*
 
-[Till bloggens startsida](blogg)
+[Tillbaka](blogg)

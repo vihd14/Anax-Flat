@@ -1,4 +1,5 @@
-####Ladda ned Anax Flat
+####Öppettider
 
-* [GitHub](https://github.com/canax/anax-flat)
-* [Packagist](https://packagist.org/packages/mos/anax-flat)
+Måndagar - fredagar: 9.00 - 17.00  
+Lördagar: 9.00 - 15.00  
+Söndagar: Stängt

@@ -4,14 +4,14 @@
  */
 ?>
 <article class="article">
-<h1>Theme selector</h1>
+<h1>Temaväljare</h1>
 
 <form method="post">
     <fieldset>
-        <legend>Select a theme</legend>
+        <legend>Välj ett tema</legend>
         <select name="theme" onchange="form.submit();">
             <option value="-1">Inget tema valt</option>
-            <option value="-2">Återgå till bastemat</option>
+            <option value="-2">Återgå till standardtemat</option>
             <?php foreach ($themes as $key => $value) :
                 $selected = $key == $currentTheme["key"]
                     ? "selected"

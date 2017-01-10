@@ -21,38 +21,10 @@ return [
                 "mark-if-parent" => true,
             ],
 
-            "grid" => [
-                "text" => t("GRID"),
-                "url" => $this->di->get("url")->create("grid"),
-                "title" => t("Grid"),
-                "mark-if-parent" => true,
-            ],
-
-            "typography" => [
-                "text" => t("TYPOGRAPHY"),
-                "url" => $this->di->get("url")->create("typography"),
-                "title" => t("Typography"),
-                "mark-if-parent" => true,
-            ],
-
-            "analysis" => [
-                "text" => t("ANALYS"),
-                "url" => $this->di->get("url")->create("analysis"),
-                "title" => t("Analys"),
-                "mark-if-parent" => true,
-            ],
-
-            "images" => [
-                "text" => t("BILDER"),
-                "url" => $this->di->get("url")->create("images"),
-                "title" => t("BILDER"),
-                "mark-if-parent" => true,
-            ],
-
             "blogg" => [
-                "text" => t("BLOGG"),
+                "text" => t("NYHETER"),
                 "url" => $this->di->get("url")->create("blogg"),
-                "title" => t("BLOGG"),
+                "title" => t("Nyheter"),
                 "mark-if-parent" => true,
             ],
 
@@ -63,17 +35,11 @@ return [
                 "mark-if-parent" => true,
             ],
 
-            "report" => [
-                "text"  => t("REDOVISNINGAR"),
-                "url"   => $this->di->get("url")->create("report"),
-                "title" => t("Redovisningar"),
-                "mark-if-parent" => true,
-            ],
-
             "about" => [
-                "text"  => t("OM SIDAN"),
+                "text"  => t("OM FÖRETAGET"),
                 "url"   => $this->di->get("url")->create("about"),
-                "title" => t("Om sidan")
+                "title" => t("Om företaget"),
+                "mark-if-parent" => true,
             ],
         ],
     ],
@@ -99,24 +65,10 @@ return [
                 "mark-if-parent" => true,
             ],
 
-            "grid" => [
-                "text" => t("Grid"),
-                "url" => $this->di->get("url")->create("grid"),
-                "title" => t("Grid"),
-                "mark-if-parent" => true,
-            ],
-
-            "typography" => [
-                "text" => t("Typography"),
-                "url" => $this->di->get("url")->create("typography"),
-                "title" => t("Typography"),
-                "mark-if-parent" => true,
-            ],
-
-            "analysis" => [
-                "text" => t("Analys"),
-                "url" => $this->di->get("url")->create("analysis"),
-                "title" => t("Analys"),
+            "blogg" => [
+                "text" => t("Nyheter"),
+                "url" => $this->di->get("url")->create("blogg"),
+                "title" => t("Nyheter"),
                 "mark-if-parent" => true,
             ],
 
@@ -127,31 +79,11 @@ return [
                 "mark-if-parent" => true,
             ],
 
-            "images" => [
-                "text" => t("Bilder"),
-                "url" => $this->di->get("url")->create("images"),
-                "title" => t("Bilder"),
-                "mark-if-parent" => true,
-            ],
-
-            "blogg" => [
-                "text" => t("Blogg"),
-                "url" => $this->di->get("url")->create("blogg"),
-                "title" => t("Blogg"),
-                "mark-if-parent" => true,
-            ],
-
-            "report" => [
-                "text"  => t("Redovisningar"),
-                "url"   => $this->di->get("url")->create("report"),
-                "title" => t("Redovisningar"),
-                "mark-if-parent" => true,
-            ],
-
             "about" => [
-                "text"  => t("Om"),
+                "text"  => t("Om företaget"),
                 "url"   => $this->di->get("url")->create("about"),
-                "title" => t("Om sidan")
+                "title" => t("Om företaget"),
+                "mark-if-parent" => true,
             ],
         ],
     ],

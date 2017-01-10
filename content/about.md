@@ -1,19 +1,9 @@
-Om kursen design
+Om företaget
 ==============================================
-<center>![Teknisk Webbdesign](img/responsiv-webbdesign.jpg "Responsiv webbdesign")</center>
+[FIGURE src="image/500.jpg" class="right"]
 
-Kursen Teknisk webbdesign och användbarhet går för första gången någonsin hösten
-2016 och syftet med kursen är att lära ut hur en webbsida tekniskt förbereds
-för design och användbarhet.
-
-Efter genomförd kurs skall studenten:
-
-* påvisa grundläggande förståelse för teknisk webbdesign och användbarhet genom att skriftligen beskriva och sammanfatta erfarenheter och observationer från övningar och projekt.
-* påvisa goda kunskaper i att anpassa och designa en webbplats via praktiska övningar och projekt.
-* självständigt utveckla, dokumentera och presentera ett projekt inom webbdesign och användbarhet.
-* ha god praktisk förmåga att hantera de tekniker, verktyg och miljöer som används för att designa och göra en webbplats användbar.
-
-
-Mer information om kursen hittas på [dbwebbs hemsida](http://dbwebb.se/design).
-
-Repot för sidans skapare hittas [här](https://github.com/vihd14/Anax-Flat) och sidans tema finns [här](https://github.com/vihd14/anax-flat-theme).
+Vi grundades 1978 av juristen Ludviga Af Solstråle som tillsammans med sina kompanjoner
+skapat Mälardalens mest framgångsrika juristbyrå. Vårt mål är att kunna ge våra klienter
+de rättigheter de förtjänar samt finna rättvisa i samhället. Därför har vi samlat
+några av landets bästa jurister som respektive har en lång utbildning av rättsfall
+inom bland annat brottmål, famlijerätt och olika sorters tvistemål.
